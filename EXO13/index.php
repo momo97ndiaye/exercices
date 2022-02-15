@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 <div class="container">
 <form action="" method="post">
 <label for="story">Veuillez saisir des phrases</label>
@@ -26,9 +27,11 @@
 <?php 
 include_once('controller.php');
 ?>
-</textarea>
-</form>
+</textarea><br>
+<button><a href="/TP_PHP/exercices/EXO12/index.php">Précédent</a></button>
+<button><a href="/TP_PHP/exercices/EXO14/index.php">Suivant</a></button>
 
+</form>
 </div>
 </body>
 </html>

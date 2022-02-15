@@ -1,12 +1,3 @@
-<?php 
-    require('fonction.php');
-    echo "la longueur est:" . $long . "</p>";
-    echo "la largeur est:" . $larg . "</p>";
-    echo "son perimetre est:" . perimetre($long,$larg) . "</p>";
-    echo "sa surface est:" . surface($long,$larg) . "</p>";
-    echo "sa diagonale est:" . diagonale($long,$larg) . "</p>";
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-<button><a href="/TP_PHP/exercices/EXO1/index.html.php">EXERCICE 1</a></button>
-<button><a href="/TP_PHP/exercices/EXO2/index.html.php">EXERCICE 2</a></button>
+
+<button><a href="/TP_PHP/exercices/EXO1/index.html.php">Précédent</a></button>
+<button><a href="/TP_PHP/exercices/EXO2/index.html.php">Suivant</a></button><br><br>
 </body>
 </html>
+<?php 
+    require('fonction.php');
+    echo "la longueur est:" . $long . "</p>";
+    echo "la largeur est:" . $larg . "</p>";
+    echo "son perimetre est:" . perimetre($long,$larg) . "</p>";
+    echo "sa surface est:" . surface($long,$larg) . "</p>";
+    echo "sa diagonale est:" . diagonale($long,$larg) . "</p>";
+
+?>

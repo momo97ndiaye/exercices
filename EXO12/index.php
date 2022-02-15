@@ -29,6 +29,7 @@ session_start();
   </div>
   <br>
 </form>
+
 </body>
 </html>
 <?php 
@@ -47,3 +48,5 @@ foreach($_SESSION['fr'] as $i=> $d){
 }
 echo"</table><br>";
 ?>
+<button><a href="/TP_PHP/exercices/EXO11/index.php">Precedent</a></button>
+<button><a href="/TP_PHP/exercices/EXO13/index.php">Suivant</a></button>

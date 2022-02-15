@@ -23,6 +23,7 @@
   </div>
 </form>
 <br>
+<button><a href="/TP_PHP/exercices/EXO14/index.php">Precedent</a></button>
 
 
 

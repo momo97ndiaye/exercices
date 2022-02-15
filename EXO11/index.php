@@ -12,6 +12,9 @@
 
       <input type="submit" name="btn_ok" id="" value="ok">
 </form>
+<button><a href="/TP_PHP/exercices/EXO10/index.php">Precedent</a></button>
+<button><a href="/TP_PHP/exercices/EXO12/index.php">Suivant</a></button>
+
 <?php 
 if(isset($_SESSION['error']))
 {

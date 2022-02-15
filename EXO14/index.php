@@ -29,7 +29,9 @@ include_once('controller.php');
 </textarea>
 <textarea name="story"
           rows="5" cols="33">
-</textarea>
+</textarea><br>
+<button><a href="/TP_PHP/exercices/EXO13/index.php">Precedent</a></button>
+<button><a href="/TP_PHP/exercices/EXO15/index.php">Suivant</a></button>
 </form>
 
 </div>

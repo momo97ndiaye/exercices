@@ -10,7 +10,6 @@ if(isset($_POST['dessiner'])){
     $arrError=[];
     validNombre($taille,"taille",$arrError);
     if(count($arrError)==0){
-        var_dump($couleur,$radio);
         if ($_POST['couleur']=="bleu"&&$_POST['radio']=="bas") {
             coloriagebleubas($taille);
         }
